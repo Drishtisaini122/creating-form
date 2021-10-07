@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
 input[type=text], input[type=password] {
-  width: 50%;
+  width: 20%;
   padding: 15px;
   margin: 5px 0 22px 0;
   background: pink;
 }
+.image{
+background-image: url("https://media.istockphoto.com/photos/background-of-galaxy-and-stars-picture-id1035676256?b=1&k=20&m=1035676256&s=170667a&w=0&h=NOtiiFfDhhUhZgQ4wZmHPXxHvt3RFVD-lTmnWCeyIG4=");
+
+}
+label,h1,p,div{
+color:white;
+font-weight:bold;
+}
+.hi{
+background-image:url(" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGbTMKFlk5MmdQTy9dXmrq1BTGld2TxbGa-A&usqp=CAU");
+
+height:800px;
+width:550px
+
+}
 
 
 </style>
+</head>
 <body>
+<center>
+<div class="image">
 
 <form action="Javascript">
   <div class="container">
     <center><h1>Student Registration Form</h1></center>
     <p>Please fill in this form to sign up .</p>
     <hr>
-    <label for="name"><b>Name</b></label>
+    <div class="hi">
+    <label for="name"><b>Name</b></label><br>
     <input type="text" placeholder="Enter Your Name" ><br>
 
 
-    <label for="email"><b>Email</b></label>
+    <label for="email"><b>Email</b></label><br>
     <input type="text" placeholder="Enter Email" name="email"><br>
 
-    <label for="password"><b>Password</b></label>
+    <label for="password"><b>Password</b></label><br>
     <input type="password" placeholder="Enter Password" name="password" ><br>
     
 
-    <label for="mobileno"><b>Mobile No.</b></label>
+    <label for="mobileno"><b>Mobile No.</b></label><br>
     <input type="text" placeholder="Enter Your Mobile No" ><br>
-    <label for="branch"><b>Branch</b></label>
+    <label for="branch"><b>Branch</b></label><br>
     <input type="text" placeholder="Branch Name" ><br>
     Tell something about yourself<br>
     <textarea></textarea><br><br>
@@ -55,14 +76,18 @@ input[type=text], input[type=password] {
     </label>
   
     
-    <p>By signing up  you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <p>By signing up  you agree to our <a href="#" style="color:yellow">Terms & Privacy</a>.</p>
 
     <div >
-      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="button" class="cancelbtn" >Cancel</button>
       <button type="submit" class="signupbtn">Sign Up</button>
     </div>
   </div>
+  </div>
 </form>
+
+</div>
+</center>
 
 </body>
 </html>
